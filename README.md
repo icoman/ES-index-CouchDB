@@ -34,12 +34,19 @@ verbose = True
 ```
 
 Section [ES] is for Elasticsearch.
+
 Section [CouchDB]:
+
 dbname = which database is indexed
+
 dbindex = in which database to store last sequence processed
+
 index_doc_seq = name of document which keep last sequence processed
+
 bulk_size = size of batch used to read from CouchDB and to write to ES
+
 Section [app] keep some generic settings, after last sequence is processed, program wait for a while before to check for changes.
+
 
 I used this python script to index a CouchDB database with 700 millions records:
 ![700 millions records CouchDB](http://rainbowheart.ro/static/uploads/1/2016/2/index_es_700_mil.jpg)
