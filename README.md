@@ -2,6 +2,8 @@
 
 A small script written in [Python](https://www.python.org/) used to index a [CouchDB](http://couchdb.apache.org/) database with [Elasticsearch](https://www.elastic.co/)  - [blog announcement](http://rainbowheart.ro/450).
 
+The ideea of this script is inspired from [couchdb rivers](https://github.com/elastic/elasticsearch-river-couchdb).
+
 ![Indexing db1](http://rainbowheart.ro/static/uploads/1/2016/2/Index_ES_db1.jpg)
 
 
